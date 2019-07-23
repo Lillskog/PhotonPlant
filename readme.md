@@ -3,12 +3,12 @@
 ## Sensors
 ### Temperature & humidity sensor (DHT11)
 ![DHT11 Pins](https://www.maxphi.com/wp-content/uploads/2017/08/dht11-pinout-173x300.png)
-![DHT11 Datasheet](https://www.mouser.com/ds/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf)
+[DHT11 Datasheet]:https://www.mouser.com/ds/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf
 
 The datasheet recommends a 5k pull-up resistor from the data pin. Note! The performance of this particular sensor is questionable... for more solid readings try the DHT22.
 
 ### Soil moisture sensor (SEN0193)
-![SEN0193 Datasheet](https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/SEN0193_Web.pdf)
+[SEN0193 Datasheet]:https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/SEN0193_Web.pdf
 
 This sensor allows analog readings of the soil moisture levels. To define the boundaries it is exposed to both water(wet) and air(dry), documenting the analog readings of the respective case. For convenient interpretation, this range is normalized to 0(dry)-100(wet)%. Note! The pre-defined boundaries are a product of a 5V power supply. 
 
