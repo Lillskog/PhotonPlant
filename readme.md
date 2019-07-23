@@ -3,6 +3,7 @@
 ## Sensors
 ### Temperature & humidity sensor (DHT11)
 ![DHT11 Pins](https://www.maxphi.com/wp-content/uploads/2017/08/dht11-pinout-173x300.png)
+
 [DHT11 Datasheet](https://www.mouser.com/ds/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf)
 
 The datasheet recommends a 5k pull-up resistor from the data pin. Note! The performance of this particular sensor is questionable... for more solid readings try the DHT22.
