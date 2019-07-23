@@ -13,8 +13,8 @@ TCPClient client;
 long delayTime = 60000; // ~9 minute delay 550000
 unsigned long startMillis; // variable to store the time at start of counting
 const char * eventName = "temphum"; // Event name defined in WebHook 
-unsigned long myChannelNumber = 828412; // ThingSpeak Channel number
-const char * myWriteAPIKey = "K6FP0HWOZHDD8L1H"; // ThingSpeak write API
+unsigned long myChannelNumber = XXXXXX; // ThingSpeak Channel number (ADD YOUR OWN!)
+const char * myWriteAPIKey = "XXXXXXXXXXXX"; // ThingSpeak write API (ADD YOUR OWN!)
 // ThingSpeak http://www.geothread.net/using-thingspeak-and-a-particle-photon/
 
 const int MIN_LIGHT = 500;  // 3.3v 500
