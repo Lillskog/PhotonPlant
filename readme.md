@@ -16,13 +16,18 @@ This sensor allows analog readings of the soil moisture levels. To define the bo
 ### Photo resistor
 The photo resistor used is nothing fancy (for more advance sensors look into breakout boards measuring light/UV). Various projects recommends a 10k pull-down resistor. The boundaries dark/bright are defined by blocking the sensor/exposing it to a flashlight. Note! The pre-defined boundaries are a product of a 5V power supply. 
 
+## Other components
+- Enclosure box, preferably weather proof
+- Relay shield
+- [Water pump](https://www.vellemanstore.com/en/velleman-vma421-water-pump-for-arduino), any aquarium pump would probably work
+
 ## Schematics
 
 ## Task log
 - [x] Setting up Particle Photon (2019-07-03)
 - [x] Individual functionality for each sensor (2019-07-04)
-- [ ] Merge and read all sensors at once
-- [ ] Prototyping
-- [ ] Add functionality to control water pump using a relay
+- [x] Merge and read all sensors at once (2019-07-04)
+- [x] Prototyping (2019-07-20)
+- [x] Add functionality to control water pump using a relay (2019-08-20)
 - [ ] Define the sweet spots 
 - [ ] Implement machine learning algorithm to process data and optimize plant growth
